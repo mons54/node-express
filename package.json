@@ -2,7 +2,11 @@
 	"name": "Node-Express-example",
 	"version": "0.0.0",
 	"dependencies": {
-		"express": "3.4.x"
+		"express": "3.4.x",
+		"connect": "2.11.x",
+		"socket.io": "0.9.x",
+		"jade": "0.35.x",
+		"stylus": "0.40.x"
 	},
 	"repository": {
 		"type": "git",
