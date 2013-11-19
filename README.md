@@ -1,4 +1,4 @@
-# Example node express
+# Example node express socket.io
 
 ### Installation
 
