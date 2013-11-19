@@ -4,6 +4,8 @@
 
 ```
 npm install express
+npm install jade
+npm install stylus
 ```
 
 ### Start App
