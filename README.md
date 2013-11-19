@@ -2,8 +2,6 @@
 
 ### Installation
 
-To begin installing Express :
-
 ```
 npm install express
 ```
