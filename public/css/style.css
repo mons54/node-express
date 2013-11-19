@@ -1,0 +1,85 @@
+body {
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #DADADA;
+}
+
+header ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+header ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+header ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 0 10px;
+	background: #333;
+	line-height: 30px;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 1px #000;
+}
+
+header ul li a:hover {
+	box-shadow: 0 0 10px #000;
+}
+
+#content h1 {
+	text-shadow: 0 0 5px #696969;
+	color: #000;
+}
+
+p,
+form{
+	padding: 3px 10px;
+	background: #fff;
+	border: 1px solid #000;
+}
+
+form div {
+	margin:5px 0;
+}
+
+.user-name {
+	padding: 3px 10px;
+	background: #fff;
+	border: 1px solid #000;
+}
+
+.send {
+	border: 1px solid #000;
+	margin: 10px 0;
+	background: #fff;
+	padding: 3px 10px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table tr td,
+table tr th{
+	border:1px solid #fff;
+	background: #333;
+	color: #fff;
+	padding:3px 10px;
+}
+
+label {
+	font-size: 13px;
+	margin-right: 5px;
+}
+
+footer {
+	margin-top:30px;
+	padding:5px;
+	border: 1px solid #fff;
+	background: #000;
+	color: #fff;
+}
