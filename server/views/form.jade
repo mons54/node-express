@@ -1,0 +1,24 @@
+extends layout
+
+block body
+
+	section#content
+		h1 Example Form
+		
+		form(action="post" method="post")
+			
+			div
+				label Test
+				
+				input(name="test" type="text")
+					
+			div
+				label Choose your name
+					
+				select(name="name")
+					option(value="David") David
+					option(value="Marie") Marie
+			
+			div
+				input(type="submit" value="Send")
+					

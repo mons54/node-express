@@ -1,0 +1,28 @@
+!!!
+html
+	head
+		title = title
+		meta(name="author", content="Julien Simonet")
+		meta(name="description", content="Example Express Web App")
+		link(rel="stylesheet", href="/css/style.css")
+		script(src="/socket.io/socket.io.js")
+	
+	body
+		
+		header
+			ul
+				li
+					a(href="/") Home
+				li
+					a(href="/link1") Link 1
+				li
+					a(href="/link2") Link 2
+				li
+					a(href="/chat") Chat with socket.io
+				li
+					a(href="/form") Example Form
+		
+		block body
+		
+		footer
+			div @copyright
