@@ -4,6 +4,7 @@
 
 ```
 npm install express
+npm install socket.io
 npm install jade
 npm install stylus
 ```
